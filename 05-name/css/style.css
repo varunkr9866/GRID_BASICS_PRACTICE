@@ -52,12 +52,14 @@ img {
     display: grid;
     grid-template-areas: 
     "title title title title"
-    "image desc desc desc"
+    "image desc desc desc";
+    gap: 1rem;
 }
 
 
 .site-title {
     grid-area : title;
+    text-align: center;
    
 }
 .tagline {
