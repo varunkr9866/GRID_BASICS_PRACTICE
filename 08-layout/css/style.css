@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #1fa2ff;
+}
+.container{
+    max-width: 100px;
+    margin: 0 auto;
+    display: grid;
+    background-color: white;
+    grid-template-areas: 
+    "header header header"
+    "main main sidebar1"
+    "footer footer footer"
+}
