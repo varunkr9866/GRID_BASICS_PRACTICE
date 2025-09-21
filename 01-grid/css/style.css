@@ -37,6 +37,9 @@ h2 {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    /* Short cut in one line to create area of grid */
+    /* row-start/coloum-start/row-end/coloum-end */
+    /* grid-area: 1/1/2/3; */
 }
 
 .service-3 {
