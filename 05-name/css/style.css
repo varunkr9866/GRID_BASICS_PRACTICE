@@ -12,7 +12,7 @@ img {
 
 .container {
     height: 100vh;
-    width: 100%;
+    width: 100%; 
     margin: 0 auto;
 
     display: grid;
@@ -49,16 +49,26 @@ img {
 .media-container {
     margin: 0 auto;
     max-width: 800px;
+    display: grid;
+    grid-template-areas: 
+    "title title title title"
+    "image desc desc desc"
 }
 
 
 .site-title {
+    grid-area : title;
    
 }
 .tagline {
 }
 
 .image {
+    grid-area : image;
+
+}
+.description{
+    grid-area : desc;
 
 }
 .info {
