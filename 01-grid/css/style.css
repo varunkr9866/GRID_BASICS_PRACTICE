@@ -8,6 +8,8 @@ h2 {
     height: 300px;
     grid-template-columns: repeat(3, 33.33%);
     grid-template-rows: repeat(2, 50%);
+    /* grid short hands */
+    /* grid: 50% 50% / 33.33% 33.33% 33.33% 33.33%; */
 
 }
 
