@@ -5,6 +5,12 @@ h2 {
 .services {
     border: 3px solid black;
     height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    /* Another way we can represent */
+    /* grid-template-columns: 50% repeat(2, 50%); */
+
+    grid-template-rows: repeat(2,50%);
 }
 
 .service {
